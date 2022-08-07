@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
     <title>Sammy's Website</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
         <a href="#aboutMeLink"><div>| ABOUT |</div></a>
         <div>| ASPIRATIONS |</div>       
         <div>| ACHIEVEMENTS |</div>
-        <div>| CONTACT ME |</div>
+        <a href="#contactMeLink"><div>| CONTACT ME |</div></a>
     </div>
 
 
@@ -34,30 +35,72 @@
 
     <div class="ABOOT">
         <h1>ABOUT ME</h1>
-        <div class="ABOOT2">
-            <div class="background_info">
+        <div class="ABOOTFirstRow">
+            <div class="background_info" id="testA">
                 <h2>BACKGROUND INFO</h2>
-                <p>My name is Sammy Haridy. I'm enrolled in Brooklyn Technical High School in the finance major, and on the side, I'm privileged to attend the All Star Code Summer Intensive. I've come to learn much so far, but I know I've barely scratched the surface. I'm still learning the basics, so I'm not yet proficient in any language as of now. This website marks my first debut in my lengthy career of computer science.</p>
+                <p id="test1">My name is Sammy Haridy. I'm enrolled in Brooklyn Technical High School in the finance major, and on the side, I'm privileged to attend the All Star Code Summer Intensive. I've come to learn much so far, but I know I've barely scratched the surface. I'm still learning the basics, so I'm not yet proficient in any language as of now. This website marks my first debut in my lengthy career of computer science.</p>
             </div>
-            <div class="backstory">
+            <div class="backstory" id="testB">
                 <h2>MY BACKSTORY</h2>
-                <p>Starting off in Brooklyn, I attended an Islamic school for elementary and middle school. My father is Egyptian, my mother Moroccan. I always preferred my Moroccan side, as I was closer to them. As a child, my career interests never remained the same, but one of them was engineering. It took me until high school to stumble upon computer science. At first it was the money, but the experience of coding trumped my greed.</p>
+                <p id="test2">Starting off in Brooklyn, I attended an Islamic school for elementary and middle school. My father is Egyptian, my mother Moroccan. I always preferred my Moroccan side, as I was closer to them. As a child, my career interests never remained the same, but one of them was engineering. It took me until high school to stumble upon computer science. At first it was the money, but the experience of coding trumped my greed.</p>
             </div>
-            <div class="pasttimes">
+            <div class="pasttimes" id="testC">
                 <h2>PASTTIMES</h2>
-                <p>For me, cooking and working out go hand in hand. I only recently picked up the spatula, about three years ago, and the dumbbell about two. I enjoy making delicious and wild dishes, sometimes (failing while) trying to make them healthy. As for lifting weights, what better a feeling than developing your mind and body? These hobbies go hand in hand, as nutrition is important for growing your body and muscles.</p>
+                <p id="test3">For me, cooking and working out go hand in hand. I only recently picked up the spatula, about three years ago, and the dumbbell about two. I enjoy making delicious and wild dishes, sometimes (failing while) trying to make them healthy. As for lifting weights, what better a feeling than developing your mind and body? These hobbies go hand in hand, as nutrition is important for growing your body and muscles.</p>
             </div>
         </div>
+        <div class="ABOOTSecondRow">
+            <div class="family" id="testD">
+                <h2>FAMILY</h2>
+                <p id="test4">I come from a family of four. My one sister, father, and mother are all important parts of my life. Although my parents would be angry with me for revealing their names, I'm sure my sister Sara wouldn't mind. Together, we've lived in a small, peaceful little apartment in Bensonhurst, Brooklyn for at least fourteen years. But for the better or worse, college is coming up, and I may have to go a little farther away from my family.</p>
+            </div>
+            <div class="ethnicity" id="testE">
+                <h2>CULTURAL BACKGROUND</h2>
+                <p id="test5">I'm half Egyptian, half Moroccan. I've been to Egypt only once when I was a child, so I don't remember much from it. But I do speak the dialect somwehat, and I make and enjoy the food. Sometimes my father makes Egyptian food at home. I've been more exposed, however, to my Moroccan side. Ever since I was a child, it was mint tea every day, and some sort of ethnic dish every afternoon. I spoke Darija all the time, and now I'm learning french.</p>
+            </div>
+            <div class="struggles" id="testF">
+                <h2>STRUGGLES</h2>
+                <p id="test6">As a child, I've always had trouble thinking outside the box. This limited my creativity and potential as a student and a future entrepreneur. But it also made me rather simple-minded, leading to me being called slow in school by my classmates. Although they said it lightheartedly, it got to me. It helped to read, as it enhanced my thinking and my creativity. As a result, I've grown somewhat and placed my struggle behind me.</p>
+
+            </div>
+        </div>
+        
+
+
     </div>
 
-        <h1>NOTE</h1>
-        <div id ="bottomPageNote">
-            <p>This is my main page. My secondary page is available below, which contains the rest of my website information. Or, you could click on one of the links on top, after "About".</p>
+    <div>
+        <a href="index2.html" target="blank"><h1>SECONDARY PAGE</h1></a>
+    </div>
+
+    <div class="contactInfo">
+        <h1 id="contactMeLink">CONTACT ME</h1>
+        <div class="contactFirstRow">
+            <div class="email" id="testG">
+                <h2>EMAIL ADDRESS</h2>
+                <p id="test7">sammyh11@nycstudents.net</p>
+
+            </div>
+            <div class="number" id="testH">
+                <h2>PHONE NUMBER</h2>
+                <p id="test8">347-972-8156</p>
+            </div>
         </div>
 
-        <div>
-            <a href="index2.html"><h1>SECONDARY PAGE</h1></a>
+        <div class="contactSecondRow">
+            <div class="linked" id="testI">
+                <h2>LINKEDIN PROFILE</h2>
+                <a href="https://www.linkedin.com/in/sammy-haridy-995a57245/"><p id="test9">LinkedIn/</p></a>
+            </div>
+            <div class="facebook" id="testJ">
+                <h2>FACEBOOK PROFILE</h2>
+                <a href="https://www.facebook.com/sammy.haridy.5"><p id=test10>Facebook</p></a>
+            </div>
         </div>
+
+    </div>
+
+
     
 </body>
 </html>

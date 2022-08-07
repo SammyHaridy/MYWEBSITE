@@ -66,7 +66,12 @@ a:hover {
     margin-bottom: 10%;
 }
 
-.ABOOT2 {
+.ABOOTFirstRow {
+    display: flex;
+    margin-bottom: 7.5%;
+}
+
+.ABOOTSecondRow {
     display: flex;
 }
 
@@ -97,9 +102,90 @@ a:hover {
     border: 5px solid #72652e;
 }
 
+.family {
+    background-color: rgb(243, 189, 114);
+    margin: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0.5%;
+    border: 5px solid #72652e;
+}
 
-#bottomPageNote {
-    margin-bottom: 10%;
+.ethnicity {
+    background-color: rgb(209, 193, 171);
+    margin: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0.5%;
+    border: 5px solid #72652e;
+}
+
+.struggles {
+    background-color: rgb(241, 233, 222);
+    margin: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0.5%;
+    border: 5px solid #72652e;
+}
+
+
+.contactInfo {
+    background-color: rgb(58, 44, 25);
+    color: beige;
+    padding-bottom: 5%;
+    margin-top: 10%;
+}
+
+.contactFirstRow {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactSecondRow {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.email {
+    background-color: beige;
+    color: rgb(70, 42, 15);
+    margin: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0.5%;
+    border: 5px solid #72652e;
+}
+
+.number {
+    background-color: beige;
+    color: rgb(70, 42, 15);
+    margin: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0.5%;
+    border: 5px solid #72652e;
+}
+
+.linked {
+    background-color: rgb(109, 87, 56);
+    color: rgb(70, 42, 15);
+    margin: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0.5%;
+    border: 5px solid #72652e;
+}
+
+.facebook {
+    background-color: rgb(109, 87, 56);
+    color: rgb(70, 42, 15);
+    margin: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0.5%;
+    border: 5px solid #72652e;
 }
 
 p {
